@@ -1,0 +1,48 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navegation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #006D77;
+}
+  
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #46ACB5;
+    height: 50px;
+}
+
+  
+.icon {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    margin-right: 20px;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+  

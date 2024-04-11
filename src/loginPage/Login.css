@@ -1,0 +1,28 @@
+.button {
+    border: none;
+    padding: 6px;
+    margin: 2px 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color:#005057;
+}
+@media (max-width: 767px) {
+    .login-general {
+      margin-top: 80px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .login-general {
+      margin-top: 100px; 
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .login-general {
+      margin-top: 120px;
+    }
+  }
+  

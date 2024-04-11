@@ -1,0 +1,143 @@
+body {
+    background-color: #D1E9F1;
+}
+
+.table-container {
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.table-container table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    color: #005057;
+    font-weight: bold;
+}
+
+.table-container th {
+    background-color: #006D77;
+    color: #fff;
+}
+
+.table-container tbody tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
+.table-container tbody tr:hover td {
+    background-color: #e0f0f7; /* Cor quando o mouse passa sobre a linha */
+}
+
+
+.table-container tbody tr:hover {
+    background-color: #e0f0f7;
+}
+
+.table-container button {
+    border: none;
+    padding: 4px;
+    margin: 2px 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.table-container button:hover {
+    background-color: #005057;
+}
+
+.nova-turma-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-container {
+    padding: 0 10%;
+    width: auto;
+    margin: 0 auto;
+    color: #006D77;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input,
+.form-container select {
+    width: calc(100% - 20px);
+    min-width: 250px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.nova-turma-container button {
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #006D77;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10%;
+    font-size: 16px;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.nova-turma-container button:hover {
+    background-color: #005057;
+}
+
+.table-title {
+    color: #005057;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .table-container {
+        margin-top: 110px;
+    }
+    
+    .table-container table {
+        width: 100%;
+        min-width: 300px;
+    }
+    
+    .form-container {
+        width: 80%;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .table-container {
+        margin-top: 110px; 
+        overflow-x: auto;
+    }
+    
+    .table-container th, .table-container td {
+        padding: 6px;
+    }
+    
+    .form-container {
+        width: 90%;
+    }
+}
